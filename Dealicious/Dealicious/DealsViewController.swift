@@ -8,11 +8,31 @@
 
 import UIKit
 
+
+//Shows the logo of the specified store
+
 class DealsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    
+
     
     @IBOutlet weak var tableView: UITableView!
+    
+    
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        tableView.delegate = self
+        tableView.dataSource = self
+        // Do any additional setup after loading the view.
+        
+        //storeImage.setRounded()
+        
+    }
+    
+    
+    @IBAction func onPress(_ sender: Any) {
+        //used to go into detail viewe screen when cell is pressed
+    }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 5
@@ -24,12 +44,7 @@ class DealsViewController: UIViewController, UITableViewDelegate, UITableViewDat
     }
     
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        tableView.delegate = self
-        tableView.dataSource = self
-        // Do any additional setup after loading the view.
-    }
+
     
 
     /*
