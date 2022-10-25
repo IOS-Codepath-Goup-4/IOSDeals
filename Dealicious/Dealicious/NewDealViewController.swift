@@ -10,6 +10,15 @@ import UIKit
 
 class NewDealViewController: UIViewController {
 
+    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var shopNameField: UITextField!
+    @IBOutlet weak var productField: UITextField!
+    @IBOutlet weak var brandField: UITextField!
+    @IBOutlet weak var descriptionField: UITextField!
+    @IBOutlet weak var dateField: UITextField!
+    @IBOutlet weak var dealPriceField: UITextField!
+    @IBOutlet weak var normalPriceField: UITextField!
+    
     @IBAction func onPostButton(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
