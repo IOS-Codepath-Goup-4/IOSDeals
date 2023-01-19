@@ -12,6 +12,8 @@ Original App Design Project - README Template
 ## Overview
 ### Description
 Application allow users to input information regarding various deals in their neighborhood. Users can then view other crowdsourced information and proceed to vote and comment on each item.
+Link to Presentation: 
+https://www.youtube.com/watch?v=f2icPRS221A
 
 ### App Evaluation
 - **Category:** Social/Lifestyle/Sharing/Finance
